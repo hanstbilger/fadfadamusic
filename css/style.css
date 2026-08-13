@@ -23,7 +23,7 @@
     --nav-h: 64px;
 
     --font-display: "Fraunces", Georgia, "Times New Roman", serif;
-    --font-body: "Libre Franklin", system-ui, -apple-system, sans-serif;
+    --font-body: "Fraunces", system-ui, -apple-system, sans-serif;
 }
 
 * {
@@ -437,6 +437,7 @@ p {
     letter-spacing: -0.02em;
     margin: 0 0 0.3em;
     color: var(--parchment);
+    position: top;
 }
 .hero__word em {
     font-style: italic;
@@ -659,7 +660,7 @@ p {
 .show__date {
     font-family: var(--font-display);
     font-size: 1.05rem;
-    color: var(--brass);
+    color: #d8a37b;
     font-weight: 500;
 }
 .show__title {
@@ -675,7 +676,7 @@ p {
     font-size: 0.85rem;
 }
 .show--past .show__date {
-    color: var(--parchment-dim);
+    color: var(#d8a37b);
 }
 
 .empty-note {
